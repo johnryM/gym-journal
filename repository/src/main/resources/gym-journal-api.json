@@ -1,0 +1,53 @@
+{
+    "session_id" : "12345678DE",
+    "session_name" : "Tricep session for Sunday",
+    "session_date" : 1525019400,
+    "session_workouts" : [
+        {
+          "workout_description" : "a tricep focused workout",
+          "workout_duration" : 3600000,
+          "workout_exercises" : [ {
+            "excercise_muscle_type" : [ "triceps" ],
+            "exercice_description" : "some exercise where you pull up",
+            "exercise_id" : "12345678BB",
+            "exercise_name" : "tricep under arm pull",
+            "exercise_sets" : [ {
+              "set_number" : 1,
+              "set_reps" : 12,
+              "set_weight" : 8
+            }, {
+              "set_number" : 2,
+              "set_reps" : 12,
+              "set_weight" : 8
+            }, {
+              "set_number" : 3,
+              "set_reps" : 10,
+              "set_weight" : 10
+            } ],
+            "exercise_type" : [ "dumbells", "weights" ]
+          }, {
+            "excercise_muscle_type" : [ "shoulders", "back" ],
+            "exercice_description" : "machine exercise where you pull a rope back",
+            "exercise_id" : "12345678CC",
+            "exercise_name" : "shoulder back pulls",
+            "exercise_sets" : [ {
+              "set_number" : 1,
+              "set_reps" : 15,
+              "set_weight" : 5
+            }, {
+              "set_number" : 2,
+              "set_reps" : 15,
+              "set_weight" : 5
+            }, {
+              "set_number" : 3,
+              "set_reps" : 15,
+              "set_weight" : 5
+            } ],
+            "exercise_type" : [ "machine" ]
+          } ],
+          "workout_id" : "123456789A",
+          "workout_name" : "triceps workout",
+          "workout_type" : [ "weight_training" ]
+        }
+    ]
+}
