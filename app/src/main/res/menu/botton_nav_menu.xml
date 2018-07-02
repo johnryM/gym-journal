@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/workoutListFragment"
+        android:icon="@drawable/list_icon"
+        android:title="@string/workouts_string"/>
+
+    <item
+        android:id="@id/myStatsFragment"
+        android:icon="@drawable/assessment_icon"
+        android:title="@string/my_stats_string"/>
+
+    <item
+        android:id="@id/moreFragment"
+        android:icon="@drawable/more_icon"
+        android:title="@string/more_string"/>
+</menu>
