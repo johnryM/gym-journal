@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/moreFragment">
+    app:startDestination="@id/workoutListFragment">
 
     <activity
         android:id="@+id/mainActivity"
@@ -25,4 +25,9 @@
         android:name="com.company.skeeno.gymjournal.MoreFragment"
         android:label="fragment_more"
         tools:layout="@layout/fragment_more" />
+    <activity
+        android:id="@+id/workoutDisplayActivity"
+        android:name="com.company.skeeno.gymjournal.WorkoutDisplayActivity"
+        android:label="activity_workout_display"
+        tools:layout="@layout/activity_workout_display" />
 </navigation>
