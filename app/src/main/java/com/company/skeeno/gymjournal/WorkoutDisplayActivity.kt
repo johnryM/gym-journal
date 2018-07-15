@@ -8,5 +8,8 @@ class WorkoutDisplayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_workout_display)
+
+        setSupportActionBar(findViewById(R.id.editor_toolbar))
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

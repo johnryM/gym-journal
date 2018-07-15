@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WorkoutDisplayActivity"></activity>
+        <activity android:name=".WorkoutDisplayActivity"
+            android:parentActivityName="com.company.skeeno.gymjournal.MainActivity"/>
     </application>
 
 </manifest>

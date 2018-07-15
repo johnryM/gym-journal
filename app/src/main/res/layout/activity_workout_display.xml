@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".WorkoutDisplayActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/editor_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/colorWhite"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     <TextView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
