@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WorkoutDetailFragment">
+
+    <EditText
+        android:id="@+id/workout_name_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:inputType="text"
+        android:text="@string/workout_name_string"
+        android:textSize="24sp"
+        android:textColor="@color/colorTextGrey"
+        android:textStyle="bold"
+        android:paddingTop="24dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:background="@android:color/transparent"/>
+
+    <EditText
+        android:id="@+id/workout_description_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/workout_name_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:inputType="text"
+        android:textColor="@color/colorTextGrey"
+        android:text="@string/description_string"
+        android:paddingTop="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:background="@android:color/transparent"/>
+</android.support.constraint.ConstraintLayout>
